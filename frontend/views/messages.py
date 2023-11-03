@@ -1,3 +1,5 @@
+import os
+
 TITLE = "Hate Guard"
 
 INTRO = """
@@ -6,7 +8,7 @@ INTRO = """
 
 BAR = "Menu"
 
-CYBORG = "./assets/images/guardian.png"
+CYBORG = os.path.join(os.path.dirname(__file__), "../assets/images/guardian.png")
 
 AUTHORS = """
     <div class="footer">
