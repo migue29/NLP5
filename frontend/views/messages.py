@@ -15,3 +15,7 @@ AUTHORS = """
         <p>Made with ❤️‍🔥 by <a href="https://www.linkedin.com/in/alexa-montenegro-047b3a252/" target="_blank">Alexa</a> / <a href="https://www.linkedin.com/in/javi-navarro-data-analyst/" target="_blank">Javier</a> / <a href="https://www.linkedin.com/in/miguelmendozaespinoza9a010114a/" target="_blank">Miguel</a> / <a href="https://www.linkedin.com/in/kamilodev/" target="_blank">Camilo</a></p>
     </div>
     """
+
+PREDICT = "[🤖 Predecir](controllers/predict.py)"
+
+SIDE_INFO = "A continuación puedes usar nuestro modelo de inteligencia artificial para detectar y combatir el discurso de odio en línea."
