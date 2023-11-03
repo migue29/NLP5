@@ -1,6 +1,6 @@
 import streamlit as st
 from assets.styles.css import styles
-from views.messages import AUTHORS, BAR, CYBORG, INTRO, TITLE
+from views.messages import AUTHORS, BAR, CYBORG, INTRO, TITLE, PREDICT, SIDE_INFO
 
 
 def app():
@@ -18,6 +18,8 @@ def app():
     st.title(TITLE)
     st.markdown(INTRO)
     st.sidebar.subheader(BAR)
+    st.sidebar.info(SIDE_INFO)
+    st.sidebar.markdown(PREDICT)
 
     st.header("Installation")
     # st.code("pip install streamlit-toggle", language="bash")
