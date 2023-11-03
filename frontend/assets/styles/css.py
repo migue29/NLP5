@@ -36,7 +36,7 @@ p {
 
 .footer p {
     font-family: 'Lato', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #FF0100;
 }
 
@@ -70,7 +70,7 @@ img {
     position: fixed;
     z-index: 10;
     align-self: flex-end;
-    padding-right: 5%;
+    padding: 0 3%;
 }
 </style>
 """
