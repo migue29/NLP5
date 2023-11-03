@@ -5,7 +5,7 @@ from views.messages import AUTHORS, BAR, CYBORG, INTRO, PREDICT, SIDE_INFO, TITL
 
 def app():
     st.set_page_config(
-        page_title="Hate Guard - Advanced AI anti-hate",
+        page_title="Hate Guardian - Advanced AI anti-hate",
         page_icon="🛡️",
         layout="centered",
         initial_sidebar_state="collapsed",
