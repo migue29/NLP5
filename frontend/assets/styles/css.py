@@ -37,18 +37,41 @@ p {
 .footer p {
     font-family: 'Lato', sans-serif;
     font-size: 0.9rem;
-    color: #FF0100;
+    color: #31333F;
 }
 
-.footer a {
+.footer > p a {
     text-decoration: none;
-    color: #FF0100;
+    color: #31333F;
     font-weight: bold;
     padding: 0 0.2rem;
 }
 
-h1 {
+.st-emotion-cache-nahz7x a {
+    text-decoration: none;
+    color: #B9DCF0;
+    padding: 0 0.2rem;
+    font-family: 'Exo', sans-serif;
+}
+
+.st-emotion-cache-5rimss a {
+    color: #31333F;
+    text-decoration: none;
+    padding: 0 0.2rem;
+    font-family: 'Exo', sans-serif;
+}
+
+.st-emotion-cache-1629p8f h1 {
     font-family: 'Black Ops One', cursive;
+    color: #7d89a4;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.st-emotion-cache-k7vsyb h1 {
+    font-family: 'Black Ops One', cursive;
+    color: #c2f7cd;
     font-size: 4em;
     text-align: center;
     text-shadow: 3px 3px 3px #000000;
