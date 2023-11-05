@@ -6,8 +6,6 @@ INTRO = """
     Bienvenido a Hate Guard, una herramienta impulsada por inteligencia artificial para detectar y combatir el discurso de odio en línea. Nuestra misión es fomentar un ambiente digital inclusivo y amigable para todos.
     """
 
-BAR = "Menu"
-
 CYBORG = os.path.join(os.path.dirname(__file__), "../assets/images/guardian.png")
 
 AUTHORS = """
@@ -16,6 +14,4 @@ AUTHORS = """
     </div>
     """
 
-PREDICT = "[🤖 Predecir](controllers/predict.py)"
-
-SIDE_INFO = "A continuación puedes usar nuestro modelo de inteligencia artificial para detectar y combatir el discurso de odio en línea."
+SIDE_INFO = "Puedes usar nuestro modelo de inteligencia artificial para detectar y combatir el discurso de odio en línea."
