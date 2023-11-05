@@ -95,5 +95,30 @@ img {
     align-self: flex-end;
     padding: 0 3%;
 }
+
+.st-emotion-cache-5rimss li,
+.st-emotion-cache-nahz7x li {
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+}
+
+.st-emotion-cache-5rimss li:hover {
+    background-color: #B9DCF0;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.st-emotion-cache-nahz7x li:hover {
+    background-color: #2C3F57;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.st-emotion-cache-5rimss li a,
+.st-emotion-cache-nahz7x li a {
+    display: block;
+}
+
 </style>
 """
