@@ -132,8 +132,8 @@ env.bak/
 venv.bak/
 envnlp
 you
-
 *csv
+*.csv
 
 # Spyder project settings
 .spyderproject
