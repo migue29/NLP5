@@ -11,3 +11,12 @@ predictor = APIRouter(prefix="/predict",tags=["ML Predictor"])
 )
 async def receive_message(response: Response):
     return await hate_predictor.receive_message(response)
+
+@predictor.post(
+    "/message",
+    summary="Recibimos y enviamos la respuesta de Hate Predictor",
+    response_description="Muestra lo que sea",
+    status_code=status.HTTP_200_OK,
+)
+async def make_prediction(text: str, response:Response) -> bool:
+    return await hate_predictor.make_prediction(text, response)
